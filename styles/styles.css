@@ -1,0 +1,200 @@
+ 
+/* navigation */
+.nav-title{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-sub-title{
+    padding-left: 120px;
+    padding-top: 87px;
+}
+.nav-description{
+    display: flex;
+    padding-top: 87px;
+    padding-right: 120px;
+    
+}
+.item{
+    display: flex;
+    gap: 35px;
+    
+} 
+.nav-description li{
+    list-style: none;
+   
+}
+/* common color */
+.primary-color{
+    background-color: #E02C6D;
+    color: aliceblue;
+    border-radius: 41px;
+    padding: 10px;
+}
+
+ /**************
+  main part
+ ************* */
+ .section-title{
+    display: flex;
+
+ }
+ .section-sub-title{
+    margin-left: 120px;
+
+ }
+ .section-text{
+    font-weight: 700;
+    font-size: 52px;
+
+ }
+ .section-description{
+
+ }
+ .section-image{
+    width: 440px;
+    height: 400px;
+    
+   background-image: url("../images/Circle\ design.svg");
+
+ }
+ /* image */
+ .icon-web{
+    display: flex;
+    gap: 80px;
+    margin-left: 120px;
+    margin-top: 150px;
+    border: 1px solid rgb(129, 128, 128);
+    border-radius: 5px;
+    padding: 5px;
+ }
+
+ /*********************
+  popular collection
+ ********************** */
+ .container{
+    width: 950px;
+    justify-content: center;
+    margin-left: 150px;
+   
+
+ }
+ .collection-section-title{
+     display: flex;
+    justify-content: center;
+    margin-top: 68px;
+    margin-bottom: 30px;
+   
+ }
+ .collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+
+ }
+ .collections{
+   background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+padding: 10px;
+
+
+
+ }
+ .collections .collection-banner img{
+    width: 300px;
+    height: 256px;
+  
+   
+
+ }
+ .collection-banner{
+    
+
+ }
+ .collection-title{
+  
+
+
+ }
+ .collection-value{
+
+ }
+ .collection-details{
+
+ }
+ .collection-duration{
+
+ }
+ .fa-star.filed{
+    color: orange;
+ }
+ .see{
+   margin-left: 1020px;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   color: blue;
+ }
+ /* feature */
+ .feature{
+    width: 950px;
+    margin-top: 130px;
+    margin-bottom: 110px;
+ }
+ .features{
+    display: flex;
+    margin-left: 150px;
+    gap: 100px;
+ }
+ .features .feature-image img{
+    width: 404px;
+height: 240px;
+
+ }
+ .feature-title{
+    font-weight: 700;
+    font-size: 38px;
+ }
+ .feature-details{
+   
+   
+ }
+
+
+ /* @@@@@@@@@@@@@@@@@@@@
+   footer
+ @@@@@@@@@@@@@@@@@ */
+ .footer{
+    background-color: black;
+    width: 100%;
+    color: #FFFFFF;
+    
+    
+    
+ } 
+ .footer-title{
+    margin-left: 500px;
+    width: 262px;
+height: 139px;
+padding: 25px;
+   
+
+ } 
+ .footer{
+
+ } 
+ 
+ .icon{
+    display: flex;
+    gap: 10px;
+ }
+
+
+ /* media query */
+ /* mobile device */
+ @media only screen and (max-width:688px) {
+    .nav-title{
+        background-color: blue;
+        width: 100%;
+    }
+    
+ }
